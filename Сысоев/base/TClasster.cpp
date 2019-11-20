@@ -86,7 +86,7 @@ Task TClasster::TaskGeneration()
 	if (pr < ProcIntensity)
 	{
 		srand((unsigned int)time(NULL));
-		cl.CntProc = rand() % (Proc)+1;
+		cl.CntProc = rand() % Proc-2;
 		cl.CntTacts = rand() % 9 + 1;
 		CntGenerationTasks++;
 	}

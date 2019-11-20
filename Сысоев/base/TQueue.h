@@ -5,6 +5,7 @@
 const int MaxQueueSize = 100;
 
 template <class T>
+
 class TQueue
 {
 	T *pMem;
